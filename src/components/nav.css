@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;           
+  background-color: rgb(48, 48, 48);
+  color: white;
+  padding: 0 50px; 
+  height: 65px;
+}
+
+.navbar-menu h1 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0; 
+}
+
+.navbar-menu ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
