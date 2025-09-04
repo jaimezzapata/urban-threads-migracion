@@ -1,4 +1,8 @@
 .navbar {
+  position: fixed;       
+  top: 0;               
+  left: 0;              
+  width: 95%;           
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6,7 +10,8 @@
   padding: 15px 40px;
   color: white;
   font-family: Arial, sans-serif;
-}
+  z-index: 1000;
+  font-size: small;        
 
 .navbar-logo {
   font-weight: bold;
@@ -16,7 +21,7 @@
 .navbar-links {
   list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 35px;
   margin: 0;
   padding: 0;
 }
@@ -30,4 +35,11 @@
 
 .navbar-links a:hover {
   color: #bbb;
+}
+
+
+body {
+  margin: 0;
+  padding-top: 70px;  
+}
 }
