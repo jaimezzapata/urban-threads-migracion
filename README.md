@@ -1,12 +1,32 @@
-# React + Vite
+# Urban Threads (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Migración a React con React Router de las tres páginas principales: **Inicio**, **Productos** y **Contacto**.
 
-Currently, two official plugins are available:
+## Cómo ejecutar
+1. Asegúrate de tener Node 18+.
+2. Instala dependencias:
+   ```bash
+   npm i
+   ```
+3. Ejecuta en desarrollo:
+   ```bash
+   npm run dev
+   ```
+4. Abre la URL que te muestra Vite (normalmente http://localhost:5173).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Estructura
+```text
+src/
+  components/
+    Footer.jsx
+    Navbar.jsx
+  pages/
+    Contact.jsx
+    Home.jsx
+    Products.jsx
+  App.jsx
+  main.jsx
+  styles.css
+```
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Los enlaces del footer son visuales (no navegan a páginas reales). El formulario de Contacto es de demostración y no envía datos.
